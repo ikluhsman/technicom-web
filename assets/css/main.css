@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+/* Slightly enlarged base font so the sparse content fills the page well */
+html {
+  font-size: 18px;
+}
+
+/* Smooth color mode transitions */
+*,
+*::before,
+*::after {
+  transition-property: background-color, border-color, color;
+  transition-duration: 150ms;
+  transition-timing-function: ease;
+}
+
+/* Override transition off for elements where it causes layout jank */
+img,
+svg,
+video {
+  transition: none;
+}

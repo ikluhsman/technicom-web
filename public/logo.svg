@@ -1,0 +1,45 @@
+<svg viewBox="0 0 345 90" xmlns="http://www.w3.org/2000/svg" fill="none" role="img" aria-label="Technicom Corporation">
+
+  <!-- ── Beacon at top ── -->
+  <!-- Antenna mast (thin spike above tower body) -->
+  <line x1="34" y1="6" x2="34" y2="22" stroke="#CECECE" stroke-width="2" stroke-linecap="round"/>
+  <!-- Glow halo (subtle) -->
+  <circle cx="34" cy="5" r="9" fill="#F97316" opacity="0.20"/>
+  <!-- Beacon light -->
+  <circle cx="34" cy="5" r="5" fill="#F97316"/>
+
+  <!-- ── Tower body (lattice, 3 sections, upright) ── -->
+
+  <!-- Outer legs — left and right, full height -->
+  <line x1="30" y1="22" x2="9"  y2="84" stroke="#CECECE" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="38" y1="22" x2="59" y2="84" stroke="#CECECE" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Horizontal cross-bars at each level -->
+  <line x1="30" y1="22" x2="38" y2="22" stroke="#CECECE" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="23" y1="43" x2="45" y2="43" stroke="#CECECE" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="16" y1="64" x2="52" y2="64" stroke="#CECECE" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="9"  y1="84" x2="59" y2="84" stroke="#CECECE" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- ── Orange X-braces ── -->
+  <!-- Section 1 (top) -->
+  <line x1="30" y1="22" x2="45" y2="43" stroke="#F97316" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="38" y1="22" x2="23" y2="43" stroke="#F97316" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Section 2 (middle) -->
+  <line x1="23" y1="43" x2="52" y2="64" stroke="#F97316" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="45" y1="43" x2="16" y2="64" stroke="#F97316" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Section 3 (bottom) -->
+  <line x1="16" y1="64" x2="59" y2="84" stroke="#F97316" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="52" y1="64" x2="9"  y2="84" stroke="#F97316" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- ── Wordmark ── -->
+  <text
+    x="76"
+    y="62"
+    font-family="'Arial Rounded MT Bold', 'Trebuchet MS', 'Century Gothic', 'Helvetica Neue', Arial, sans-serif"
+    font-size="44"
+    font-weight="700"
+    font-style="italic"
+    letter-spacing="0.5"
+    fill="#D0D0D0"
+  >Technicom</text>
+</svg>

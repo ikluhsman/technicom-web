@@ -1,0 +1,10 @@
+services:
+  web:
+    build:
+      context: .
+      args:
+        # Pass your pro license at build time: NUXT_UI_PRO_LICENSE=xxx docker compose build
+        NUXT_UI_PRO_LICENSE: ${NUXT_UI_PRO_LICENSE}
+    ports:
+      - "80:80"
+    restart: unless-stopped
