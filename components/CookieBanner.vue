@@ -27,7 +27,7 @@ function dismiss() {
     >
       <UCard
         class="max-w-4xl mx-auto shadow-2xl pointer-events-auto
-               border-gray-200 dark:border-zinc-700"
+               bg-white dark:bg-zinc-800 ring-1 ring-zinc-200 dark:ring-zinc-700"
       >
         <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
 
