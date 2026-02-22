@@ -4,6 +4,9 @@
     description:
       "Technicom Corporation provides communication tower space leasing and co-location services for wireless carriers and technology providers.",
   })
+  useHead({
+    link: [{ rel: 'canonical', href: 'https://www.technicomcorp.com' }],
+  })
 </script>
 
 <template>
@@ -35,7 +38,7 @@
           <div class="w-16 h-1 bg-orange-600 rounded-full mb-6" />
 
           <p
-            class="text-lg lg:text-xl text-gray-600 dark:text-zinc-300 leading-relaxed mb-6">
+            class="text-lg lg:text-lg text-gray-600 dark:text-zinc-300 leading-relaxed mb-6">
             Technicom Corporation is a communication tower company providing
             tower space leasing and co-location services to telecommunications
             carriers, wireless internet service providers, and other wireless
@@ -43,14 +46,16 @@
           </p>
 
           <p
-            class="text-lg lg:text-xl text-gray-600 dark:text-zinc-300 leading-relaxed">
+            class="text-lg lg:text-lg text-gray-600 dark:text-zinc-300 leading-relaxed mb-6">
             Our strategically located tower facility provides secure,
             carrier-grade co-location with flexible lease structures tailored to
             your infrastructure requirements. From major carriers to regional
             operators, we work with you to structure the right co-location
-            agreement for your equipment. Contact us at info@technicomcorp.com
-            to start the conversation.
+            agreement for your equipment.
           </p>
+
+          <p class="text-lg lg:text-lg text-gray-600 dark:text-zinc-300 leading-relaxed">Contact us at info@technicomcorp.com
+            to start the conversation.</p>
         </div>
 
         <!-- Tower Photo — crop to 3:4 portrait (e.g. 900×1200px) for best fit -->
@@ -179,12 +184,12 @@
             }">
             <template #header>
               <div class="flex items-center gap-3">
-                <div class="p-2 bg-orange-100 dark:bg-orange-950 rounded-lg">
+                <div class="p-2 bg-red-100 dark:bg-red-950 rounded-lg">
                   <UIcon
                     name="i-heroicons-exclamation-triangle"
-                    class="w-6 h-6 text-orange-600" />
+                    class="w-6 h-6 text-red-600" />
                 </div>
-                <h3 class="text-xl font-bold text-orange-600">
+                <h3 class="text-xl font-bold text-red-600">
                   Tower Emergency
                 </h3>
               </div>
