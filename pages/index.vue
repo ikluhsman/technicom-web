@@ -64,6 +64,9 @@
             src="/tower.jpg"
             alt="Technicom Tower"
             class="w-full h-full object-cover" />
+          <p class="absolute bottom-3 left-0 right-0 text-center text-xs italic text-white/70">
+            Technicom Corp. est. 1965
+          </p>
         </div>
       </div>
     </section>
@@ -82,11 +85,11 @@
             Contact Us
           </h2>
           <p class="text-lg text-gray-500 dark:text-zinc-400">
-            Reach out for leasing inquiries or tower site emergencies.
+            Reach out for leasing inquiries or more information.
           </p>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+        <div class="max-w-xl mx-auto">
           <!-- ── General Contact Card ── -->
           <UCard
             class="h-full bg-white dark:bg-zinc-800 ring-1 ring-zinc-200 dark:ring-zinc-700"
@@ -108,46 +111,39 @@
             </template>
 
             <ul class="space-y-5">
-              <!-- Name — TODO: fill in -->
+              <!-- Contacts -->
               <li class="flex items-start gap-3">
                 <UIcon
-                  name="i-heroicons-user"
+                  name="i-heroicons-users"
                   class="w-5 h-5 text-zinc-400 mt-0.5 shrink-0" />
-                <div>
-                  <p class="text-sm text-gray-500 dark:text-zinc-400">
-                    Contact
-                  </p>
-                  <!-- TODO: Replace with actual name -->
-                  <p class="font-semibold text-gray-900 dark:text-white">
-                    Ian Kluhsman
-                  </p>
+                <div class="space-y-2">
+                  <p class="text-sm text-gray-500 dark:text-zinc-400">Managers</p>
+                  <div>
+                    <p class="font-semibold text-gray-900 dark:text-white">Ian Kluhsman</p>
+                    <a
+                      href="tel:+17209353871"
+                      class="text-sm text-orange-600 hover:text-orange-700 dark:hover:text-orange-500 transition-colors">
+                      (720) 935-3871
+                    </a>
+                  </div>
+                  <div>
+                    <p class="font-semibold text-gray-900 dark:text-white">Jim Kluhsman</p>
+                    <a
+                      href="tel:+13039606757"
+                      class="text-sm text-orange-600 hover:text-orange-700 dark:hover:text-orange-500 transition-colors">
+                      (303) 960-6757
+                    </a>
+                  </div>
                 </div>
               </li>
 
-              <!-- Phone — TODO: fill in -->
-              <li class="flex items-start gap-3">
-                <UIcon
-                  name="i-heroicons-phone"
-                  class="w-5 h-5 text-zinc-400 mt-0.5 shrink-0" />
-                <div>
-                  <p class="text-sm text-gray-500 dark:text-zinc-400">Phone</p>
-                  <!-- TODO: Replace href and display text with actual number -->
-                  <a
-                    href="tel:+7209353871"
-                    class="font-semibold text-orange-600 hover:text-orange-700 dark:hover:text-orange-500 transition-colors">
-                    (720) 935-3871
-                  </a>
-                </div>
-              </li>
-
-              <!-- Email — TODO: fill in -->
+              <!-- Email -->
               <li class="flex items-start gap-3">
                 <UIcon
                   name="i-heroicons-envelope"
                   class="w-5 h-5 text-zinc-400 mt-0.5 shrink-0" />
                 <div>
                   <p class="text-sm text-gray-500 dark:text-zinc-400">Email</p>
-                  <!-- TODO: Replace with actual email -->
                   <a
                     href="mailto:info@technicomcorp.com"
                     class="font-semibold text-orange-600 hover:text-orange-700 dark:hover:text-orange-500 transition-colors">
@@ -156,7 +152,7 @@
                 </div>
               </li>
 
-              <!-- Address — TODO: fill in -->
+              <!-- Address -->
               <li class="flex items-start gap-3">
                 <UIcon
                   name="i-heroicons-map-pin"
@@ -165,7 +161,6 @@
                   <p class="text-sm text-gray-500 dark:text-zinc-400">
                     Mailing Address
                   </p>
-                  <!-- TODO: Replace with actual address (PO Box once you have it) -->
                   <p class="font-semibold text-gray-900 dark:text-white">
                     3707 S Mission Pkwy<br />
                     Aurora, CO 80013
@@ -173,77 +168,6 @@
                 </div>
               </li>
             </ul>
-          </UCard>
-
-          <!-- ── Emergency Contact Card ── -->
-          <UCard
-            class="h-full bg-white dark:bg-zinc-800 ring-1 ring-zinc-200 dark:ring-zinc-700"
-            :ui="{
-              header: 'border-b border-zinc-200 dark:border-zinc-700 pb-4',
-              body: 'pt-6',
-            }">
-            <template #header>
-              <div class="flex items-center gap-3">
-                <div class="p-2 bg-red-100 dark:bg-red-950 rounded-lg">
-                  <UIcon
-                    name="i-heroicons-exclamation-triangle"
-                    class="w-6 h-6 text-red-600" />
-                </div>
-                <h3 class="text-xl font-bold text-red-600">
-                  Tower Emergency
-                </h3>
-              </div>
-            </template>
-
-            <div class="space-y-5">
-              <UAlert
-                icon="i-heroicons-information-circle"
-                color="warning"
-                variant="soft"
-                title="Urgent Issues"
-                description="For tower site outages, structural concerns, or any situation requiring immediate on-site response, use the emergency line below." />
-
-              <!-- Emergency Phone — TODO: fill in -->
-              <div class="flex items-start gap-3">
-                <UIcon
-                  name="i-heroicons-phone-arrow-up-right"
-                  class="w-5 h-5 text-orange-500 mt-0.5 shrink-0" />
-                <div>
-                  <p class="text-sm text-gray-500 dark:text-zinc-400">
-                    Emergency Line
-                  </p>
-                  <!-- TODO: Replace with actual emergency number -->
-                  <a
-                    href="tel:+17209353871"
-                    class="text-xl font-bold text-orange-600 hover:text-orange-700 dark:hover:text-orange-500 transition-colors">
-                    +1 (720) 935-3871
-                  </a>
-                  <br />
-                  <a
-                    href="tel:+13039606757"
-                    class="text-xl font-bold text-orange-600 hover:text-orange-700 dark:hover:text-orange-500 transition-colors">
-                    +1 (303) 960-6757
-                  </a>
-                </div>
-              </div>
-
-              <!-- Tower Address — TODO: fill in -->
-              <div class="flex items-start gap-3">
-                <UIcon
-                  name="i-heroicons-map-pin"
-                  class="w-5 h-5 text-zinc-400 mt-0.5 shrink-0" />
-                <div>
-                  <p class="text-sm text-gray-500 dark:text-zinc-400">
-                    Tower Site Address
-                  </p>
-                  <!-- TODO: Replace with actual site address -->
-                  <p class="font-semibold text-gray-900 dark:text-white">
-                    W219 S7884 Crowbar Dr.<br />
-                    Muskego, WI 53150
-                  </p>
-                </div>
-              </div>
-            </div>
           </UCard>
         </div>
       </div>

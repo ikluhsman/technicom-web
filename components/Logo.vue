@@ -5,7 +5,7 @@
     Orange beacon and X-braces are always orange — they read well on any background.
   -->
   <svg
-    viewBox="0 0 345 90"
+    viewBox="0 -6 345 96"
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     role="img"
@@ -13,8 +13,8 @@
   >
     <!-- ── Beacon at top ── -->
     <line x1="34" y1="6"  x2="34" y2="22" stroke="currentColor" stroke-width="2"   stroke-linecap="round"/>
-    <circle cx="34" cy="5" r="9" fill="#F97316" opacity="0.25"/>
-    <circle cx="34" cy="5" r="5" fill="#F97316"/>
+    <circle cx="34" cy="5" r="9" fill="#DC2626" opacity="0.25"/>
+    <circle cx="34" cy="5" r="5" fill="#DC2626"/>
 
     <!-- ── Tower body — outer legs ── -->
     <line x1="30" y1="22" x2="9"  y2="84" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>

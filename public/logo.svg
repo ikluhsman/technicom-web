@@ -4,9 +4,9 @@
   <!-- Antenna mast (thin spike above tower body) -->
   <line x1="34" y1="6" x2="34" y2="22" stroke="#CECECE" stroke-width="2" stroke-linecap="round"/>
   <!-- Glow halo (subtle) -->
-  <circle cx="34" cy="5" r="9" fill="#F97316" opacity="0.20"/>
+  <circle cx="34" cy="5" r="9" fill="#DC2626" opacity="0.20"/>
   <!-- Beacon light -->
-  <circle cx="34" cy="5" r="5" fill="#F97316"/>
+  <circle cx="34" cy="5" r="5" fill="#DC2626"/>
 
   <!-- ── Tower body (lattice, 3 sections, upright) ── -->
 
