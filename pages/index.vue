@@ -53,9 +53,6 @@
             operators, we work with you to structure the right co-location
             agreement for your equipment.
           </p>
-
-          <p class="text-lg lg:text-lg text-gray-600 dark:text-zinc-300 leading-relaxed">Contact us at info@technicomcorp.com
-            to start the conversation.</p>
         </div>
 
         <!-- Tower Photo — crop to 3:4 portrait (e.g. 900×1200px) for best fit -->
