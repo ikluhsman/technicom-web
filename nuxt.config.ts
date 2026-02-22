@@ -26,6 +26,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       link: [
+        { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
         // Exo 2 italic bold — used in the logo wordmark
         {
           rel: 'preconnect',
