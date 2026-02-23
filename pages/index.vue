@@ -117,19 +117,9 @@
                   <p class="text-sm text-gray-500 dark:text-zinc-400">Managers</p>
                   <div>
                     <p class="font-semibold text-gray-900 dark:text-white">Ian Kluhsman</p>
-                    <a
-                      href="tel:+17209353871"
-                      class="text-sm text-orange-600 hover:text-orange-700 dark:hover:text-orange-500 transition-colors">
-                      (720) 935-3871
-                    </a>
                   </div>
                   <div>
                     <p class="font-semibold text-gray-900 dark:text-white">Jim Kluhsman</p>
-                    <a
-                      href="tel:+13039606757"
-                      class="text-sm text-orange-600 hover:text-orange-700 dark:hover:text-orange-500 transition-colors">
-                      (303) 960-6757
-                    </a>
                   </div>
                 </div>
               </li>
