@@ -39,17 +39,10 @@
 
           <p
             class="text-lg lg:text-lg text-gray-600 dark:text-zinc-300 leading-relaxed mb-6">
-            Technicom Corporation is a communication tower company providing
-            tower space leasing and co-location services to telecommunications
-            carriers, wireless internet service providers, and other wireless
-            technology companies in the greater Milwaukee area.
-          </p>
-
-          <p
-            class="text-lg lg:text-lg text-gray-600 dark:text-zinc-300 leading-relaxed mb-6">
-            Our tower facility supports secure, carrier-grade co-location for
-            telecommunications carriers, wireless internet providers, and other
-            wireless technology operators.
+            Technicom Corporation provides tower space leasing and carrier-grade
+            co-location services to telecommunications carriers, wireless
+            internet service providers, and other wireless technology operators
+            in the greater Milwaukee area.
           </p>
         </div>
 
