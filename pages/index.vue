@@ -47,11 +47,9 @@
 
           <p
             class="text-lg lg:text-lg text-gray-600 dark:text-zinc-300 leading-relaxed mb-6">
-            Our strategically located tower facility provides secure,
-            carrier-grade co-location with flexible lease structures tailored to
-            your infrastructure requirements. From major carriers to regional
-            operators, we work with you to structure the right co-location
-            agreement for your equipment.
+            Our tower facility supports secure, carrier-grade co-location for
+            telecommunications carriers, wireless internet providers, and other
+            wireless technology operators throughout the greater Milwaukee area.
           </p>
         </div>
 
