@@ -49,7 +49,7 @@
             class="text-lg lg:text-lg text-gray-600 dark:text-zinc-300 leading-relaxed mb-6">
             Our tower facility supports secure, carrier-grade co-location for
             telecommunications carriers, wireless internet providers, and other
-            wireless technology operators throughout the greater Milwaukee area.
+            wireless technology operators.
           </p>
         </div>
 
