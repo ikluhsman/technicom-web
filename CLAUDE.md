@@ -5,7 +5,7 @@ Public-facing website for Technicom Corp (www.technicomcorp.com). Simple static 
 ## Stack
 
 - **Nuxt 4** (`^4.0.0`)
-- **@nuxt/ui-pro v3** — component library (includes @nuxt/ui and Tailwind v4)
+- **@nuxt/ui v3** — component library (includes Tailwind v4)
 - **Tailwind CSS v4** — via @nuxt/ui, no separate tailwind.config.ts
 - **TypeScript**
 - **Static generation** — Nitro preset: `static`, served via nginx
@@ -34,7 +34,7 @@ nuxt.config.ts
 - **Font:** Exo 2 Italic Bold (Google Fonts) — logo wordmark only
 - **Color mode:** light default, light fallback, `classSuffix: ''`
 
-> In Nuxt 4 / @nuxt/ui-pro v3, colors are NOT set via `ui.colors` in nuxt.config.ts — use the `@theme` block in CSS instead.
+> In Nuxt 4 / @nuxt/ui v3, colors are NOT set via `ui.colors` in nuxt.config.ts — use the `@theme` block in CSS instead.
 
 ## Development
 
@@ -44,10 +44,7 @@ npm run generate  # static site build → .output/public/
 npm run preview   # preview generated output
 ```
 
-Requires `.env` with:
-```
-NUXT_UI_PRO_LICENSE=<license key>
-```
+No `.env` required.
 
 ## Deployment
 
@@ -55,8 +52,6 @@ Deployed on **Netlify** via static generation. Config in `netlify.toml`:
 - Build command: `npm run generate`
 - Publish directory: `.output/public`
 - Node 22
-
-Set `NUXT_UI_PRO_LICENSE` in Netlify → Site Settings → Environment Variables (build-time only, not runtime).
 
 ## Conventions
 
