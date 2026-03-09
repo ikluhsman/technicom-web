@@ -1,7 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  // @nuxt/ui-pro is the module for Nuxt UI Pro v3; it includes @nuxt/ui automatically.
-  modules: ['@nuxt/ui-pro'],
+  modules: ['@nuxt/ui'],
 
   colorMode: {
     preference: 'light',
