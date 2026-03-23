@@ -129,21 +129,6 @@
                   </a>
                 </div>
               </li>
-
-              <!-- Mailing Address -->
-              <li class="flex items-start gap-3">
-                <UIcon
-                  name="i-heroicons-map-pin"
-                  class="w-5 h-5 text-zinc-400 mt-0.5 shrink-0" />
-                <div>
-                  <p class="text-sm text-gray-500 dark:text-zinc-400">Mailing Address</p>
-                  <p class="font-semibold text-gray-900 dark:text-white">
-                    3707 S Mission Pkwy<br />
-                    Aurora, CO 80013
-                  </p>
-                </div>
-              </li>
-
             </ul>
           </UCard>
 
